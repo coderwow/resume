@@ -1,0 +1,204 @@
+
+{
+  "cn": {
+    "header": {
+      "titleList": [
+        {
+          "svg": "img/d_home.svg",
+          "title": "首页"
+        },
+        {
+          "svg": "img/d_info.svg",
+          "title": "关于我"
+        },
+        {
+          "svg": "img/d_skills.svg",
+          "title": "技能栈"
+        },
+        {
+          "svg": "img/d_exp.svg",
+          "title": "经历"
+        },
+        {
+          "svg": "img/d_works.svg",
+          "title": "项目"
+        },
+        {
+          "svg": "img/d_contact.svg",
+          "title": "联系我"
+        }
+      ]
+    },
+    "default": {
+      "quote": "Write the Code，Change the World",
+      "desList": [
+        "我叫周杨",
+        "一名前端研发工程师",
+        "一个正在路上的前端coder "
+      ]
+    },
+    "info": {
+      "title": "关于我",
+      "infoList": [
+        {
+          "icon": "img/i_age.svg",
+          "key": "年龄",
+          "value": "23岁"
+        },
+        {
+          "icon": "img/i_edu.svg",
+          "key": "学历",
+          "value": "本科"
+        },
+        {
+          "icon": "img/i_site.svg",
+          "key": "坐标",
+          "value": "武汉"
+        },
+        {
+          "icon": "img/i_status.svg",
+          "key": "状态",
+          "value": "实习"
+        }
+      ],
+      "desList": [
+        "2017届毕业生，就读于上海立信会计金融学院",
+        "两年前端研发经验，快钱公司实习六个月",
+        "高效的自学能力,强烈的自我驱动力",
+        "善于沟通，具备吃苦耐劳以及良好团队合作精神"
+      ]
+    },
+    "skill": {
+      "title": "技能栈",
+      "outCircleList": [
+        {
+          "color": "rgba(121,100,102,0.8)",
+          "name": "gulp"
+        },
+        {
+          "color": "rgba(49,65,82,0.8)",
+          "name": "html5"
+        },
+        {
+          "color": "rgba(76,157,160,0.8)",
+          "name": "webpack"
+        },
+        {
+          "color": "rgba(66,66,66,0.8)",
+          "name": "less"
+        },
+        {
+          "color": "rgba(193,131,106,0.8)",
+          "name": "react"
+        },
+        {
+          "color": "rgba(117,148,179,0.8)",
+          "name": "nodejs"
+        },
+        {
+          "color": "rgba(71,83,94,0.8)",
+          "name": "css3"
+        },
+        {
+          "color": "rgba(147,147,189,0.8)",
+          "name": "mongodb"
+        }
+      ],
+      "innerCircleList": [
+        {
+          "color": "rgba(179,164,140,0.8)",
+          "name": "es6"
+        },
+        {
+          "color": "rgba(171,209,220,0.8)",
+          "name": "git"
+        },
+        {
+          "color": "rgba(238,215,163,0.8)",
+          "name": "ps"
+        },
+        {
+          "color": "rgba(207,184,178,0.8)",
+          "name": "ant"
+        }
+      ],
+      "desList": [
+        "熟练玩转前端技术三驾马车，熟悉ES6语法",
+        "Web语义化，模块、组件开发，函数式编程",
+        "熟悉NodeJS，了解Express、koa2等框架",
+        "热爱技术，乐于挑战，敲美丽的代码，做喜欢的事情"
+      ]
+    },
+    "works": {
+      "title": "项目",
+      "worksList": [
+        {
+          "title": "支付营销管理平台（快钱）",
+          "des": "本管理平台是在快钱公司实习期间参与研发的项目之一。该产品主要为商户提供整合了支付、营销管理、积分管理、储值卡等功能于一身的一站式会员管理解决方案。项目使用基于react的ant-design前端框架进行开发。",
+          "url": "https://www.99bill.com/seashell/webapp/ms/"
+        },
+        {
+          "title": "苏州胜连公司官网",
+          "des": "利用课余时间承接的一个企业官网项目。学习了建站的整个流程，包括购买域名及服务器空间，项目打包上线，代码优化，FTP上传，网站SEO等。企业官网支持响应式，适应多终端设备。",
+          "url": "http://www.shenglianvip.com/"
+        },
+        {
+          "title": "学校事务中心管理系统",
+          "des": "大学期间和同学合作开发的学生事务管理系统，提供基于互联网运营的移动校园整体解决方案。系统使用ASP.NET技术进行开发，前端使用Framework7框架构建精美的iOS & Android 应用。",
+          "url": "https://github.com/coderwow/"
+        },
+        {
+          "title": "影院管理系统",
+          "des": "本系统使用“MEAN”技术栈（即：mongodb、express、angular、nodejs）开发，用于本人的毕业设计。项目采用MVC设计模式，将业务逻辑、视图、模型相分离，被院校评为“优秀毕业论文”。",
+          "url": "https://github.com/coderwow/MEAN"
+        }
+      ]
+    },
+    "experience": {
+      "title": "经历",
+      "expList": [
+        {
+          "title": "快钱公司",
+          "time": "2016年11月~至今",
+          "post": "前端实习生",
+          "imgUrl": "img/e_js.svg",
+          "tech": "node.js react framework7 ant-design 原生js及es6使用",
+          "contentList": [
+            "参与公司官网和快钱钱包APP的开发",
+            "根据产品需求开发相关的Web组件",
+            "学习企业级微信公众号和小程序的开发",
+            "初步接触前后端联调，项目打包压缩，seo优化"
+          ]
+        },
+        {
+          "title": "上海立信会计金融学院",
+          "time": "2013年9月~2017年6月",
+          "post": "大学生",
+          "imgUrl": "img/e_html.svg",
+          "tech": "html5 css3 js jquery bootstrap less git gulp",
+          "contentList": [
+            "自学前端基本技能，接触各类前端框架",
+            "通过做项目提升编程能力，关注代码规范和性能优化",
+            "高度组件化、模块化思维，掌握各平台调试能力",
+            "Node.js的进阶学习，跟踪了解最新前端技术"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "联系我",
+      "desList1": [
+        "灵感",
+        "代码",
+        "梦想",
+        "未来"
+      ],
+      "desList2": [
+        "15618011087",
+        "1185067788",
+        "zhouyangweb@outlook.com",
+        "https://github.com/coderwow"
+      ]
+    }
+  }
+}

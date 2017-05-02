@@ -1,0 +1,139 @@
+.-contact{
+  color:#FFF;
+  background: #ecd25e url(../img/bg.png);
+  .-content{
+    max-width: 300px;
+    margin: 0 auto;
+
+    .-contact-type{
+      /* display: flex;
+      justify-content: space-around; */
+      margin: 50px auto 0;
+       .-item{
+        border-radius: 50%;
+         border: 1px solid #FFF;
+         width: 40px;
+         height: 40px;
+         position: relative;
+         img{
+           width: 65%;
+           position: absolute;
+           top: 50%;
+           right: 50%;
+           transform: translateX(50%) translateY(-50%);
+         }
+         span {
+          margin-left: 50px;
+          line-height: 40px;
+         }
+
+       }
+    }
+  }
+  .-content-en{
+    max-width: 400px;
+    .-contact-des2{
+      font-size: 15px;
+    }
+    .-contact-type{
+      width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 1366px) {
+  .-contact {
+    .-content {
+      top: 150px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .-contact {
+    .-content {
+      max-width: 350px;
+      padding: 0 30px;
+    }
+  }
+    .-banner{
+      width: 750px;
+      height: 350px;
+    }
+}
+
+
+
+.-banner{
+      width: 750px;
+      height: 260px;
+      background: #F2F4F5;
+      margin:0 auto;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      color:#000;
+      transition: transform .3s linear;
+      overflow: hidden;
+      box-shadow: 0 0 25px rgba(0,0,0,0.5);
+      transform-style: preserve-3d;
+      .-contact-content{
+        transition: opacity 0.3s;
+        }
+      }
+
+      @media screen and (max-width: 600px){
+
+        .-contact{
+          .-content{
+            top:80px;
+            .-contact-des1{
+              font-size: 18px;
+            }
+            .-contact-des1-en{
+              font-size: 16px;
+            }
+            .-contact-des2{
+              font-size: 15px;
+            }
+            .-contact-download{
+              .-download-title{
+                font-size: 16px;
+              }
+            }
+            .-contact-type{
+              margin: 50px auto 0;
+              width: 90%;
+              font-size: 15px;
+              .-item{
+                width: 30px;
+                height: 30px;
+              }
+            }
+          }
+          .-content-en{
+            max-width: 300px;
+            .-contact-des2{
+              font-size: 14px;
+            }
+          }
+        }
+}
+@media screen and (max-height: 470px){
+  .-contact{
+    .-content {
+      .-contact-des2{
+        font-size: 14px;
+      }
+      .-contact-download{
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+a:hover {
+  color: #3a4feb !important;
+}
+
+a:link {
+  color: #000 !important;
+}
